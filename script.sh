@@ -54,8 +54,8 @@ if [ $fichero != "q" ]; then
 	    else gruposMultiples="${gruposMultiples}${i} y "
 	    fi
 	done
-	rm maxGrupo.txt
 	echo "Los grupos que tienen más usuarios son $gruposMultiples"
     fi
+    rm maxGrupo.txt
 else echo "Finalizando..."
 fi
